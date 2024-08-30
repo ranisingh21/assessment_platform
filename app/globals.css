@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  background-color: #FCFAFA;
+}
+
+.logo {
+  width: 56px;
+  margin-right: 10px;
+}
+
+.logo1 {
+  font-size: 28.736px;
+  font-weight: 700;
+}
+
+.instruction {
+  font-size: 18px;
+  font-weight: 700;
+  padding-top: 40px;
+  padding-bottom: 16px;
+  width: 471px;
+  color: #4C4B49;
+  margin: auto;
+}
+
+.start_Atag {
+  width: 149px;
+  text-align: center;
+  text-decoration: none;
+  color: #1F1E1C;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.StartDiv {
+  text-align: center;
+  margin: auto;
+  width: 159px;
+  padding: 16px 0;
+  border-radius: 4px;
+  border: 2px solid #F4D150;
+  background: #FEEEB4;
+  box-shadow: 0px 4px 7px 0px #B3AE9C;
+  margin-top: 39px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 55px;
+  margin-bottom: 19px;
+  color: #4C4B49;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 120%;
+}
+
+.instructions {
+  background: #F9F7F2;
+  width: 100%;
+  width: 705px;
+  margin: auto;
+  padding-bottom: 49px;
+}
+
+.main-box {
+  padding-bottom: 8px;
+  color: #4C4B49;
+  font-size: 14px;
+
+  padding-left: 21px;
+  font-family: Inter;
+  line-height: 150%;
+}
+
+.paragraph1,
+.paragraph2,
+.paragraph3 {
+  margin: auto;
+  color: #4C4B49;
+  font-size: 14px;
+  line-height: 150%;
+  padding-bottom: 8px;
+}
+
+.instructions hr {
+  width: 620px;
+  color: #4C4B49;
+  margin: auto;
+}
+
+/* .footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #F9F7F2;
+  background-color: #4C4B49;
+  padding-top: 46px;
+  padding-bottom: 68px;
+  width: 100%;
+}
+
+.text {
+  margin-bottom: 18px;
+  color: #F9F7F2;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.text1 {
+  color: #F9F7F2;
+  text-align: center;
+  font-size: 14px;
+} */
+
+.footer {
+  text-align: center;
+  /* Center content horizontally */
+  color: #F9F7F2;
+  background-color: #4C4B49;
+  padding-top: 46px;
+  padding-bottom: 68px;
+  width: 100%;
+}
+
+.text {
+  margin-bottom: 18px;
+  /* Space between elements */
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.text1 {
+  font-size: 14px;
+}
+
+
+.allMainContent {
+  width: 471px;
+  margin: auto;
+  padding-bottom: 40px;
+}
+
+.container {
+  background-color: #EBE9E6;
+  width: 100%;
+  padding-bottom: 147px;
+}
+
+@media screen and (max-width: 600px) {
+  .instructions {
+    width: 100%;
+    margin: auto;
+  
+  }
+
+  .allMainContent {
+    width: 100%;
+  }
+
+  .instruction {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+
+  .container {
+    padding-bottom: 80px;
+    padding-left:20px;
+    padding-right:20px;
+    /* width:100%; */
+
+  }
+
+  .instructions hr {
+    width: 280px;
+  }
+}

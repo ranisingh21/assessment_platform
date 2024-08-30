@@ -1,0 +1,124 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.ScoresContainer{
+        background-color: #EBE9E6;
+        width: 100%;
+        padding-bottom: 147px;
+        border:2px solid red;
+      
+}
+
+.ScoreSummaryContainer{
+    margin: auto;
+    width:625px;
+    margin-top :40px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    /* height:165px; */
+    border-radius: 12px;
+    border: 1px solid  #8F887C;
+    /* background: #4C4B49;  */
+    
+     /* padding-left:44px; */
+     /* padding-right: 41px;  */
+} 
+.ScoreSummaryContainer1{
+    width: 543px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid  #8F887C;
+    background: white;
+    margin-top:52px;
+    margin-bottom: 54px;
+
+    /* align-items: center; */
+
+    
+}
+
+.ScoreItemsContainer{
+    width: 406px;
+    border:2px solid maroon;
+    display: flex;
+    justify-content: space-between;
+    /* height: 58px; */
+
+
+   /* justify-content: center; */
+   /* align-items: center; */
+}
+
+.ScoreItems{
+    width: 84px;
+    border:2px solid violet;
+    height: 62px;
+    /* padding-top:2px; */
+    /* padding-bottom:2px; */
+
+}
+.ScoreValue{
+    border:1px solid red ;
+    width:84px;
+    /* height: 40px; */
+    text-align: center;
+}
+.ScoredText{
+    width: 83px;
+    /* height: 22px; */
+    border:1px solid black;
+    /* text-align: center; */
+    /* color: var(--Light-b, #F9F7F2); */
+
+/* tx bold */
+/* font-family: Inter; */
+font-size: 14px;
+/* font-style: normal; */
+font-weight: 600;
+line-height: 160%;
+}
+.Icon{
+    width:28px;
+    height:28px;
+    border:1px solid black;
+}
+
+.Label{
+    width:92px;
+    height:21px;
+    border:1px solid black;
+    margin-top:8px;
+    
+}
+.Value{
+    border:1px solid black;
+    width:10px;
+    height:22px;
+    float:right;
+}
+
+.ScoreItem1{
+    border: 1px solid black;
+    width:122px;
+    height:58px;
+
+}
+
+.ScoreItem2{
+    /* border: 1px solid black; */
+    width:84px;
+    height:58px;
+    border:1px solid black;
+    /* float:left; */
+
+}
+
+.ScoreItem3{
+    /* border: 5px solid black; */
+    width:68px;
+    height: 58px;
+    border:1px solid black;
+}

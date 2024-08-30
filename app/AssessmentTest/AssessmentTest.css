@@ -1,0 +1,635 @@
+
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.SubmitAtag {
+  text-decoration: none;
+  color: #1F1E1C;
+  font-size: 18px;
+}
+
+.ButtonDiv {
+  padding: 16px 35px;
+  border-radius: 4px;
+  border: 2px solid #F4D150;
+  background: #FEEEB4;
+  /* float: right; */
+  margin-top: 8px;
+  margin-bottom: 8px;
+  box-shadow: 0px 4px 7px 0px #B3AE9C;
+}
+
+.HeaderContainer {
+  /* background-color: #EBE9E6; *
+  /* background: var(--Light-b, #F9F7F2); */
+  width:100%;
+  background-color: #FCFAFA;
+  /* border:1px solid black; */
+}
+
+.AssessmentHeader1 {
+  width: 1200px;
+  background-color: #FCFAFA;
+  margin: auto;
+  display: flex;
+  /* border: 1px solid black; */
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+.AssessmentContainer {
+  background-color: #EBE9E6;
+  padding-bottom: 107px;
+  width: 100%;
+}
+
+.NaviglogoDiv {
+  align-items: center;
+  width: 997px;
+  display: flex;
+  justify-content: space-between;
+}
+/* .logo1{ */
+  /* border:1px solid black; */
+  /* text-align: center; */
+/* } */
+
+.logo2 {
+  font-size: 28.736px;
+  font-weight: 700;
+  margin-bottom: 7px;
+  /* border:1px solid black; */
+
+}
+
+.PaginationContainer {
+  display: flex;
+  gap: 16px;
+}
+
+.paginationresponsive {
+  display: none;
+  border: 2px solid maroon;
+}
+
+.Pagination {
+  width: 30px;
+  height: 30px;
+  line-height: 28px;
+  border-radius: 30px;
+  border: 2px solid #E0DFDA;
+  text-align: center;
+  /* background-color:  #4C4B49; */
+}
+
+.Paginations{
+  width: 30px;
+  height: 30px;
+  line-height: 28px;
+  border-radius: 30px;
+  border: 2px solid #E0DFDA;
+  text-align: center;
+}
+.Pagination5{
+  width: 30px;
+  height: 30px;
+  line-height: 28px;
+  border-radius: 30px;
+  border: 2px solid #E0DFDA;
+  text-align: center;
+}
+.Pagination1 {
+  width: 30px;
+  height: 30px;
+  line-height: 28px;
+  border-radius: 30px;
+  border: 1px solid #4C4B49;
+  text-align: center;
+  background-color:  #4C4B49;
+  color: #FCFAFA;
+}
+
+.RightArrow {
+ 
+
+  border-radius: 30px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 28px;
+  /* background-color:;
+  border:1px solid #F4D150; */
+  /* border-radius: 4px; */
+border: 1px solid var(--Accent, #F4D150);
+background: var(--Accent-Light, #FEEEB4);
+  /* box-shadow: 0px 4px 7px 0px #B3AE9C; */
+
+  
+
+}
+
+.LeftArrow {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 28px;
+  border-radius: 30px;
+  background-color: #EBE9E6;
+  /* border:1px solid   #EBE9E6; */
+  /* box-shadow: 0px 4px 7px 0px #B3AE9C; */
+ 
+
+}
+.hr {
+  border: 2px solid black;
+  height: 6px;
+  background: black;
+  margin: 10px 0;
+  width: 100%;
+}
+
+
+.ExamContiner1 {
+  width: 900px;
+  margin: auto;
+}
+
+
+ 
+
+
+
+.QuesDisplayContainer {
+  width: 560px;
+  /* border: 1px solid black; */
+  margin-bottom: 40px;
+  
+}
+
+.ExamContainer1 {
+  width: 894px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 203px;
+  margin-left: 103px;
+}
+
+.QuestionsContainer {
+  width: 560px;
+  margin-top: 66px;
+  /* margin-bottom: 96px; */
+}
+
+.FilterTimeContainer {
+  /* border: 1px solid green; */
+  width: 284px;
+  /* height: 575px; */
+  bottom:47px;
+  position: relative;
+}
+
+.FilterContainer {
+  width: 284px;
+  height: 375px;
+  padding: 36px 39px 79.4px 48px;
+  background: #F9F7F2;
+  margin-top:20px;
+  border-radius: 12px;
+}
+
+.FilterText {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 36px;
+}
+
+.FilterHeader {
+  width: 197px;
+  /* border:1px solid black; */
+}
+
+.FilterText {
+  color: #4C4B49;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 36px;
+}
+
+.QuestionScoreDiv {
+  color: #1F1E1C;
+  margin-bottom: 16px;
+}
+
+.QuestionScoresDiv {
+  width: 196px;
+}
+
+.FilterGroupButtons {
+  margin-bottom: 48px;
+  display: flex;
+  gap: 10px;
+  height: 42px;
+}
+
+.FilterButtonAll {
+  padding: 10px 10px;
+  border-radius: 4px;
+  background: #4C4B49;
+  color: #F9F7F2;
+  font-weight: 600;
+  border: 1px solid  #4C4B49;
+}
+
+.FilterButton {
+  padding: 10px 12px;
+  border-radius: 4px;
+  font-weight: 400;
+  border: 1px solid #F4D150;
+  background: #FEEEB4;
+}
+
+.TimerContainer {
+  width: 152px;
+  /* height: 180px; */
+  /* border: 1px solid red; */
+  margin: auto;
+  /* display: flex; */
+
+}
+.RemainingTimeText{
+  /* border: 1px solid black; */
+  margin:auto;
+  margin-top:10px;
+  color:  #1F1E1C;
+  font-weight: 600;
+  text-align: center;
+  
+}
+
+.CircularTimer{
+  
+  width: 141px;;
+  height:141px;
+  border-radius: 50%;
+  align-items: center;
+  display:flex;
+  justify-content: center;
+
+box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+  background: conic-gradient(from -55deg, #E68086 0% 15%, #EBE9E6 15% 100%);
+
+  /* text-align: center; */
+
+
+
+
+}
+
+.TimerDiv {
+  /* border:1px solid black; */
+  /* width:144px; */
+  /* align-items: center; */
+  /* height:172px; */
+  /* display: flex; */
+  /* justify-content: center; */
+
+}
+.TimeDisplay{
+  /* border:1px solid black; */
+  width:115px;
+  height: 115px;
+  border-radius: 50%;
+  background-color:  #FCFAFA;
+
+  display: flex;
+  align-items: center;
+  /* justify-content:center; */
+  /* font-display: flex; */
+}
+.MinSecDiv{
+  /* border:1px solid black; */
+  width:74px;
+  /* height:50px; */
+  margin:auto;
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* align-items: center; */
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.MinutesDiv{
+  /* border:1px solid black; */
+  /* height:50px; */
+  width:32px;
+  /* padding-right:4px */
+  
+
+}
+.NumOfMin{
+  /* border:1px solid red; */
+  width:32px;
+  height:29px;
+  text-align: center;
+  color: #E68086; 
+  font-size: 24px; 
+  font-weight: 600;
+
+ 
+}
+.MinTextDiv{
+  /* border: 1px solid green; */
+  margin-top:6px;
+  color: v#1F1E1C;
+}
+
+.SecondDiv{
+  /* border/:1px solid black; */
+  width:30px;
+  /* height:49px; */
+}
+.NumOfSecond{
+  /* border:1px solid red; */
+  width:30px;
+  height:29px;
+  text-align: center;
+  color: #E68086; 
+  font-size: 24px; 
+  font-weight: 600;
+}
+.SecondTextDiv{
+ 
+  margin-top:6px;
+  /* border:1px solid maroon ; */
+  color: v#1F1E1C;
+
+}
+
+.DotDiv{
+  /* border: 1px solid black; */
+  /* width:28px; */
+  display: none;
+  /* height:28px; */
+}
+
+
+
+.ExamContainer {
+  width: 1200px;
+  margin: auto;
+}
+
+.QuestionDiv {
+  width: 85px;
+}
+
+.ScoreDiv {
+  width: 70px;
+}
+
+.QuesPlusScoreDiv {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.paraMcqDiv {
+  padding: 40px 40px 28px 40px;
+  background: #F9F7F2;
+  border-radius: 12px;
+
+}
+
+.paragraph {
+  margin-bottom: 28px;
+}
+
+.inputOptionDiv {
+  margin-bottom: 15px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.input1 {
+  margin-right: 16px;
+  accent-color: #F4D150;
+}
+
+.option {
+  line-height: 150%;
+}
+
+.QuestionStatusFilter {
+  width: 200px;
+}
+
+.StatusFilterText {
+  margin-bottom: 16px;
+  color:  #1F1E1C;
+  color: var(--Dark-a, #1F1E1C);
+}
+
+.AllFilterStatus {
+  padding:6px 8px;
+  border-radius: 54px;
+  text-align: center;
+  color:white;
+  background: var(--Dark-b, #4C4B49);
+}
+
+.AllplusAttemptDiv {
+  display: flex;
+  width: 200px;
+  margin-bottom: 6px;
+}
+
+.AttemptedFilterStatus {
+  padding:5px 8px;
+  border-radius: 54px;
+  background-color: #FEEEB4;
+  border: 1px solid #F4D150;
+  margin-left:6px;
+  text-align: center;
+  color: #1F1E1C;
+
+}
+
+.UnattemptedDiv {
+  width: 160px;
+  padding: 6px 12px;
+  border-radius: 20px;
+  background: #FEEEB4;
+  color: #1F1E1C;
+  text-align: center;
+
+  
+}
+.FilterTextContainer{
+  display: none;
+}
+
+ 
+@media only screen and (max-width: 576px) {
+  .AssessmentHeader1 { 
+    width: 100%;
+    /* border: 2px solid green; */
+    /* height: 72px; */
+  }
+  .PaginationContainer { 
+
+    border-top:2px solid gainsboro;
+    width:100%;
+    /* height:74px; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    padding-top:22px;
+    padding-bottom:24px; 
+    gap:26px;
+
+
+
+  }  
+
+  .DotDiv{
+    display: block;
+    width:15px;
+    height:30px;
+    text-align: center;
+}
+  
+  .ButtonDiv {
+    display: none;
+  }
+  .NaviglogoDiv {
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    padding-top:3px;
+
+  }
+  .LogoContainer{
+    margin-top:20px;
+    margin-bottom:18px;
+      text-align: center;
+
+  }
+  .Pagination1{
+    background-color: white;
+    border: 2px solid  #E0DFDA;  
+    color: #1F1E1C;
+  }
+  .Paginations{
+    display: none;
+  }
+  .Pagination5{
+  border-radius: 30px;
+  border: 1px solid  #4C4B49;
+  background: #4C4B49;
+  color: #FCFAFA;
+  }
+
+.LeftArrow{
+  border-radius: 40px;
+border: 1px solid #F4D150;
+background:  #FEEEB4;
+}  
+
+ 
+.QuesDisplayContainer{ 
+   width:100%; 
+  margin:0px; 
+ } 
+
+.ExamContainer {
+  width: 100%;
+  /* margin:0px;  */
+}
+.ExamContainer1{
+  width:100%;
+  margin:0px;
+  margin:auto;
+  display: flex;
+  flex-direction: column;
+
+}
+ .FilterContainer{
+  display: none;
+} 
+
+
+
+.AssessmentContainer{
+  width: 100%;
+  padding-bottom: 219px;
+}
+
+
+.ExamContainer {
+  width:100%;
+  /* border:1px solid black; */
+}
+ 
+.QuesDisplayContainer{
+  /* padding:auto; */
+  margin-bottom:40px;
+} 
+ .QuestionsContainer{
+  /* margin:auto; */
+  width:100%;
+   padding-left: 20px;
+   padding-right: 20px;
+   margin:0px;
+   /* border: 1px solid black; */
+} 
+
+.FilterTimeContainer{
+  /* margin:0px; */
+  /* border: .1px solid black; */
+  width:100%;
+  padding-left:19px;
+  padding-right:19px;
+  /* position: relative; */
+  margin-top:23px;
+  bottom:0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom:58px;
+  /* padding:auto; */
+  /* justify-content: center; */
+
+}
+.RemainingTimeText{
+  display: none;
+}
+.TimerContainer{
+  /* border:1px solid black; */
+  margin: 0px;
+  /* margin-left:20px; */
+  /* margin-bottom:58px; */
+}
+.FilterTextContainer{
+  /* border :2px solid black; */
+  display: block;
+  width:104px;
+  height:39px;
+  /* display: flex; */
+  /* margin-right: 20px; */
+}
+/* .FilterTextDiv{
+  width:60px;
+  height:19px;
+  border:1px solid black;
+} */
+
+
+}

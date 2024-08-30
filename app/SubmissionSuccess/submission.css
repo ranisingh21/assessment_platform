@@ -1,0 +1,107 @@
+* {
+  padding: 0px;
+}
+
+.SubSuccessContainer {
+  background-color: #EBE9E6;
+  width: 100%;
+  padding-bottom: 147px;
+
+}
+
+.SubmittedPage {
+  width: 705px;
+  /* border:2px solid black; */
+  background-color: #F9F7F2;
+  margin: auto;
+  margin-top: 103px;
+  padding-bottom: 108px;
+  /* padding-top: 115px; */
+
+  /* margin-bottom:428px; */
+}
+
+.MessageBox {
+  margin: auto;
+  width: 319px;
+  /* height:141px; */
+  /* border:2px solid black; */
+  /* margin-top: 115px; */
+  /* margin-bottom:98px; */
+}
+
+.CheckScore {
+
+  padding: 16px 35px;
+  border-radius: 4px;
+  /* border: 2px solid  #F4D150; */
+  background-color: #FEEEB4;
+  color: #1F1E1C;
+  font-size: 18px;
+  margin: auto;
+
+}
+
+.submit {
+  color: #1F1E1C;
+  /* border: 1px solid black; */
+  margin-bottom: 50px;
+  width: 100%;
+  margin: auto;
+  color: #1F1E1C;
+  font-size: 24px;
+  margin-bottom: 36px;
+  font-weight: 600;
+  text-align: center;
+
+}
+
+.Paragraph1 {
+  /* border:1px solid black; */
+  color: #000;
+  text-align: center;
+  margin-bottom: 12px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 150%;
+}
+
+.Paragraph2 {
+  /* border:1px solid black; */
+  color: #000;
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  font-size: 14px;
+  line-height: 150%;
+}
+
+.ScoresDiv {
+  margin: auto;
+  width: 152px;
+  margin-top: 98px;
+
+  padding: 16px 35px;
+  border-radius: 4px;
+  border: 2px solid#F4D150;
+  background: #FEEEB4;
+  box-shadow: 0px 4px 7px 0px #B3AE9C;
+
+}
+.ScorestAtag {
+  text-decoration: none;
+  color: #1F1E1C;
+  font-size: 18px;
+  color: #1F1E1C;
+  font-family: Inter;
+  width: 22px;
+  font-weight: 400;
+}
+
+.TickIcon {
+  margin: auto;
+  width: 28px;
+  padding-top: 65px;
+  margin-bottom: 22px;
+
+}
