@@ -156,7 +156,7 @@ h1 {
   padding-bottom: 147px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 576px) {
   .instructions {
     width: 100%;
     margin: auto;

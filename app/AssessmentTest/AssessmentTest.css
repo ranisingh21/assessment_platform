@@ -20,8 +20,7 @@
   /* float: right; */
   margin-top: 8px;
   margin-bottom: 8px;
-  box-shadow: 0px 4px 7px 0px #B3AE9C;
-}
+  box-shadow: 0px 4px 7px 0px #B3AE9C;}
 
 .HeaderContainer {
   /* background-color: #EBE9E6; *
@@ -53,16 +52,14 @@
   display: flex;
   justify-content: space-between;
 }
-/* .logo1{ */
-  /* border:1px solid black; */
-  /* text-align: center; */
-/* } */
+
 
 .logo2 {
   font-size: 28.736px;
   font-weight: 700;
   margin-bottom: 7px;
-  /* border:1px solid black; */
+  margin-left:10px;
+
 
 }
 
@@ -480,7 +477,7 @@ box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
 @media only screen and (max-width: 576px) {
   .AssessmentHeader1 { 
     width: 100%;
-    /* border: 2px solid green; */
+    border: 2px solid green;
     /* height: 72px; */
   }
   .PaginationContainer { 
@@ -506,9 +503,7 @@ box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
     text-align: center;
 }
   
-  .ButtonDiv {
-    display: none;
-  }
+  
   .NaviglogoDiv {
     display: flex;
     flex-direction: column;
@@ -519,7 +514,7 @@ box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
   .LogoContainer{
     margin-top:20px;
     margin-bottom:18px;
-      text-align: center;
+      
 
   }
   .Pagination1{
@@ -625,11 +620,21 @@ background:  #FEEEB4;
   /* display: flex; */
   /* margin-right: 20px; */
 }
-/* .FilterTextDiv{
-  width:60px;
-  height:19px;
-  border:1px solid black;
-} */
 
+.ButtonDiv{
+   position: fixed;
+        top: 799px;
+        right: 19px;
+        border-radius: 4px;
+        background-color: #FEEEB4;
+        border: solid 2px #F4D150;
+        padding: 16px 35px;
+        margin-right: 0px;
+        border :3 px solid red;
+        margin:0px; 
+} 
+.paraMcqDiv{
+  border:1px solid black;
+}
 
 }
