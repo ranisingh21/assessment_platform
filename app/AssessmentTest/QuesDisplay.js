@@ -5,7 +5,7 @@ const QuesDisplay = () => {
         <div className="QuesDisplayContainer">
             <div className="QuesPlusScoreDiv">
                 <div className="QuestionDiv">
-                    Question 1
+                    Question 21
                 </div>
                 <div className="ScoreDiv">
                     Score +1
