@@ -9,11 +9,7 @@ const AssessmentTestHeader = () => {
             <img src="/Logo Grp.png" className="logoOne" alt="Logo" />
             <img src="/QA.png" className="logoTwo" alt="Logo" />
           </div>
-         
-
-            <Pagination />
-        
-
+          <Pagination />  
         </div>
 
         <div className="ButtonDiv">
@@ -22,7 +18,7 @@ const AssessmentTestHeader = () => {
           </a>
         </div>
       </div>
-     </div>
+    </div>
   );
 };
 

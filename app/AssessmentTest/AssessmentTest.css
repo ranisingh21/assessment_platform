@@ -258,16 +258,7 @@
 
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   background: conic-gradient(from -55deg, #E68086 0% 15%, #EBE9E6 15% 100%);
-
-
-
-
-
 }
-
-
-
-
 
 .TimeDisplay {
   width: 115px;
@@ -287,10 +278,7 @@
 }
 
 .MinutesDiv {
-
   width: 32px;
-
-
 }
 
 .NumOfMin {
@@ -349,7 +337,7 @@ font-weight: 700;
 .ScoreDiv {
   width: 70px;
   color: #1F1E1C;
-  text-align: right;
+  text-align: center;
   font-size: 14px;
   font-weight: 400;
 }
@@ -412,7 +400,7 @@ font-weight: 700;
   border-radius: 54px;
   text-align: center;
   color: white;
-  background: var(--Dark-b, #4C4B49);
+  background:  #4C4B49;
 }
 
 .AllplusAttemptDiv {
@@ -459,9 +447,7 @@ font-weight: 700;
   }
 
   .PaginationContainer {
-
     border-top: 2px solid gainsboro;
-    width: 100%;
     display: flex;
     justify-content: center;
     padding-top: 22px;
@@ -665,14 +651,12 @@ font-weight: 500;
 }
 
 .paragraph {
-  color: var(--Dark-a, #1F1E1C);
-
-  /* tx bold */
-  font-family: Inter;
+  color:  #1F1E1C;
+   font-family: Inter;
   font-size: 14px;
   font-style: normal;
   font-weight: 600;
-  line-height: 160%; /* 22.4px */  
+  line-height: 160%;  
   
 }
 .paraMcqDiv{

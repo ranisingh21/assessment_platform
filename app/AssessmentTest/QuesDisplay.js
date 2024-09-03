@@ -41,7 +41,6 @@ const QuesDisplay = () => {
                         <div className="inputOptionDiv">
                             <div className="OptionTag">
                                 <input type="radio" className="input" id="option4" name="committee" value="option4" />
-                    
                                 <label htmlFor="option4" className="option">Swaran Singh Committee</label>
                             </div>
                         </div>
