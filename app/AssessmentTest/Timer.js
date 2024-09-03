@@ -11,8 +11,8 @@ const Timer = () => {
         </div>
         <div className ="MinTextDiv">min</div>
         </div>
-        <div className = "DotDiv">
-        :
+        <div className = "TimerColon">
+           :
         </div>
         < div className ="SecondDiv">
         <div className ="NumOfSecond">

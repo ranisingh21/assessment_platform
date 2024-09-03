@@ -7,6 +7,7 @@ const page = () => {
         <div className="SubSuccessContainer">
             <Header />
             <Submission />
+
         </div>
     )
 

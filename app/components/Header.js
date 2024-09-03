@@ -1,11 +1,13 @@
 const Header = () => {
 	return (
-		<div className="header1">
-			{/* <div> */}
-			<img src="/Logo Grp.png" className="logo" alt="Logo" />
-			<img src="/QA.png" className="logo1" alt="Logo" />
-			{/* </div> */}
-		</div>
+		<>
+			<div className="header1">
+				<div className="logoBox">
+					<img src="/Logo Grp.png" className="log1" alt="Logo" />
+					<img src="/QA.png" className="logo2" alt="Logo" />
+				</div>
+			</div>
+		</>
 	);
 };
 

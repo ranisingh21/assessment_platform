@@ -6,10 +6,10 @@ const AssessmentTestHeader = () => {
       <div className="AssessmentHeader1">
         <div className="NaviglogoDiv">
           <div className='LogoContainer'>
-            <img src="/Logo Grp.png" className="logo1" alt="Logo" />
-            <img src="/QA.png" className="logo2" alt="Logo" />
+            <img src="/Logo Grp.png" className="logoOne" alt="Logo" />
+            <img src="/QA.png" className="logoTwo" alt="Logo" />
           </div>
-          <hr/>
+         
 
             <Pagination />
         

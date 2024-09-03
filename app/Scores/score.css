@@ -1,124 +1,447 @@
 *{
-    margin:0px;
-    padding:0px;
+  margin:0px;
+  padding:0px;
 }
 .ScoresContainer{
-        background-color: #EBE9E6;
-        width: 100%;
-        padding-bottom: 147px;
-        border:2px solid red;
-      
+  background-color: #EBE9E6;
+  padding-bottom:348px;
 }
 
-.ScoreSummaryContainer{
-    margin: auto;
-    width:625px;
-    margin-top :40px;
-    display: flex;
-    /* align-items: center; */
-    justify-content: center;
-    /* height:165px; */
-    border-radius: 12px;
-    border: 1px solid  #8F887C;
-    /* background: #4C4B49;  */
-    
-     /* padding-left:44px; */
-     /* padding-right: 41px;  */
-} 
 .ScoreSummaryContainer1{
-    width: 543px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border: 1px solid  #8F887C;
-    background: white;
-    margin-top:52px;
-    margin-bottom: 54px;
-
-    /* align-items: center; */
-
-    
+width: 543px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+background:  #4C4B49;
+margin-top:52px;
+margin-bottom: 55px;    
 }
 
 .ScoreItemsContainer{
-    width: 406px;
-    border:2px solid maroon;
-    display: flex;
-    justify-content: space-between;
-    /* height: 58px; */
-
-
-   /* justify-content: center; */
-   /* align-items: center; */
+width: 406px;
+display: flex;
+justify-content: space-between;
+background-color: #4C4B49; 
 }
 
 .ScoreItems{
-    width: 84px;
-    border:2px solid violet;
-    height: 62px;
-    /* padding-top:2px; */
-    /* padding-bottom:2px; */
-
+width: 84px;
 }
+
 .ScoreValue{
-    border:1px solid red ;
-    width:84px;
-    /* height: 40px; */
-    text-align: center;
+background: #4C4B49;
+color: #F9F7F2;
+text-align: center;
+font-weight: 700;
 }
-.ScoredText{
-    width: 83px;
-    /* height: 22px; */
-    border:1px solid black;
-    /* text-align: center; */
-    /* color: var(--Light-b, #F9F7F2); */
 
-/* tx bold */
-/* font-family: Inter; */
-font-size: 14px;
-/* font-style: normal; */
-font-weight: 600;
+.ScoredText{
+width: 83px;
 line-height: 160%;
 }
-.Icon{
-    width:28px;
-    height:28px;
-    border:1px solid black;
+
+.ValueWrongDiv{
+width:68px;
+margin-top:5px;
+display: flex;
+justify-content: space-between;
 }
 
-.Label{
-    width:92px;
-    height:21px;
-    border:1px solid black;
-    margin-top:8px;
-    
+.WrongText{
+width:47px;
+color:  #F9F7F2;
+background: #4C4B49;
+font-size: 14px;
+font-weight: 400;
 }
+
+.vl{
+width: 1px;
+background-color:#8F887C ;
+}
+
+.ValueUnAttemptDiv{
+width:114px;
+margin-top:5px;
+display: flex;
+justify-content: space-between;
+margin:auto;
+margin-top:5px;
+}
+
+.ValueCorrectDiv{
+width:84px;
+display: flex;
+justify-content: space-between;
+margin:auto;
+margin-top:5px; 
+}
+
+.CorrectTextDiv{
+color:#F9F7F2;
+background: #4C4B49;
+font-size: 14px;
+}
+.Icon{
+width:28px;
+height:28px;
+margin: auto;
+align-items: center;
+}
+
+.UnAttemptText{
+color:  #F9F7F2;
+background: #4C4B49;
+font-size: 14px;
+}
+
 .Value{
-    border:1px solid black;
-    width:10px;
-    height:22px;
-    float:right;
+color:#F9F7F2;
+text-align: center;
+background: #4C4B49;
+font-size: 14px;
+font-weight: 600;
+}
+.Value2{
+color:  #F9F7F2;
+text-align: center;
+background: #4C4B49;
+font-size: 14px;
+font-weight: 600;
+width:18px;
 }
 
 .ScoreItem1{
-    border: 1px solid black;
-    width:122px;
-    height:58px;
-
+  width:122px;
 }
 
 .ScoreItem2{
-    /* border: 1px solid black; */
-    width:84px;
-    height:58px;
-    border:1px solid black;
-    /* float:left; */
-
+width:84px;
 }
 
 .ScoreItem3{
-    /* border: 5px solid black; */
-    width:68px;
-    height: 58px;
-    border:1px solid black;
+  width:68px;  
+}
+
+.paraMcqQuestions {
+    padding: 40px 40px 28px 40px;
+    background: #F9F7F2;
+    border-radius: 12px;
+    width:480px;
+    margin-left:35px;
+    margin-bottom:53px;
+    margin-top:20px;
+  }
+   
+  .inputOptionDiv {
+  margin-bottom: 15px;
+
+  }
+
+  .input1 {
+  margin-right: 16px;
+  accent-color: #F4D150;
+  }
+  
+  .option {
+  line-height: 150%;
+  color: #4C4B49;
+  }
+
+  .TickIconContainer{
+  width:595px;
+  margin:auto;
+  margin-top:50px; 
+  }
+
+  .HrDiv{
+  border: 1px solid #8F887C;
+  width:595px;
+  margin:auto;
+  margin-top:27px
+  }
+
+  .Hr2Div{
+  border: 1px solid #8F887C;
+  width:595px;
+  margin:auto;
+  margin-top:20px;
+  }
+
+.CheckYourAnsText{
+  width:595px;
+  margin:auto;
+  margin-top:67px;
+  color: #1F1E1C;
+font-weight: 600;
+text-transform: uppercase;
+}
+.TickPlusQuestion{
+width:112px;
+display: flex;
+justify-content: space-between;
+ }
+
+
+
+.AllAttemptContainer hr {
+  width: 580px;
+  border :1px solid  #8F887C;
+  margin:auto;
+  background-color:  #8F887C;
+  display: flex;
+  margin-top:20px;
+  margin-bottom:20px;
+  }
+  
+  .AllAttemptContainer{
+  width: 595px;
+  margin:auto;
+  }
+
+  .WrongAnsContainer{
+  width: 595px;
+  display: flex;
+  justify-content: space-between;
+  height:28px;
+  }
+
+.WrongAnsDiv{
+width:112px;
+display: flex;
+gap:16px;
+align-items: center;
+}
+
+.PlusIcon{
+width:28px;
+}
+
+.RightAnsContainer{
+width: 595px;
+height:28px;
+display: flex;
+justify-content: space-between;
+}
+
+.RightAnsDiv{
+display: flex;
+gap:16px;
+align-items: center;
+}
+
+.ExlamationAnsDiv{
+display: flex;
+gap:16px;
+align-items: center;
+}
+
+
+ 
+ .ScoreSummaryContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:#4C4B49;
+  width: 625px;
+  margin: auto;
+  border-radius: 12px;
+  margin-top:40px;
+  } 
+
+.RightIcon{
+  text-align: center;
+  height:28px;
+  width:28px;
+}
+.ExlamationIcon{
+  text-align: center;
+  height:28px;
+  width:28px;
+
+}
+.NumberText{
+align-items: center;
+}
+
+.WrongIcon{
+  width:28px;
+  height:28px;
+}
+
+.TickIconContainer2{
+  width:595px;
+  margin:auto;
+  margin-top:50px;
+
+}
+
+
+ .ExlamationmarkContainer1{
+  width: 595px;
+  margin:auto;
+  display: flex;
+  justify-content: space-between;
+
+ } 
+ .paragraph {
+  margin-bottom: 28px;
+  font-size: 14px;
+  color:  #1F1E1C;
+  font-weight: 600;
+  line-height: 160%; 
+  
+}
+ .ExlamationmarkContainer{
+  width: 595px;
+  margin:auto;
+
+ }
+ .ExlamationmarkContainer hr{
+  width: 580px;
+  border :1px solid  #8F887C;
+  margin:auto;
+  background-color:  #8F887C;
+  margin-top:20px;
+  margin-bottom:20px;
+ }
+
+.TickIconContainer hr{
+  width: 580px;
+  border :1px solid  #8F887C;
+  margin:auto;
+  background-color:  #8F887C;
+  margin-top:20px;
+  margin-bottom:20px;
+ }
+
+.ScoredText{
+
+color: #F9F7F2;
+font-size: 14px;
+font-weight: 600;
+background:  #4C4B49;
+}
+
+@media only screen and (max-width: 576px) {
+  .ScoresContainer{
+    width:100%;
+    background-color: #EBE9E6;
+    padding-bottom:32px;
+  }
+  
+.ScoreSummaryContainer{
+  width:320px;
+  margin-top:21px;
+  /* margin:0px; */
+}
+.ScoreSummaryContainer1{
+  display: flex;
+  flex-direction: column;
+  width:268px;
+}
+.ScoreItemsContainer{
+  width:100%;
+  margin-top:29px;
+}
+.vl{
+  display: none;
+}
+.ScoreItem1{
+  width:88px;
+}
+.ScoreItem2{
+  width:70px;
+}
+.ScoreItem3{
+  width:70px;
+}
+.UnAttemptText{
+  margin-bottom: 4px;
+}
+.ValueUnAttemptDiv{
+  width:100%;
+  flex-direction: column;
+}
+.ValueCorrectDiv{
+  width:100%;
+  flex-direction: column;
+
+}
+.CorrectTextDiv{
+  margin: auto;
+  margin-bottom:4px;
+}
+.Value2{
+  margin:auto;
+}
+.ValueWrongDiv{
+  width:100%;
+  flex-direction: column;
+}
+
+.WrongText{
+ 
+  margin:auto;
+  margin-bottom: 4px;
+}
+
+.TickIconContainer{
+  width:321px;
+  margin-top:31px;
+  
+}
+.RightAnsContainer{
+  width:100%;
+}
+.paraMcqQuestions{
+
+  width:260px;
+  margin:auto;
+  padding:40px 30px;
+  margin-top:20px;
+
+}
+.WrongAnsContainer{
+  width:100%;
+}
+
+.TickIconContainer hr{
+  width:100%;;
+  border :1px solid  #8F887C;
+
+
+
+}
+.AllAttemptContainer hr{
+  width:100%;
+  border :1px solid  #8F887C;
+ 
+}
+.AllAttemptContainer{
+  width: 321px;
+
+}
+
+.ExlamationmarkContainer{
+  width:321px;
+
+}
+.ExlamationmarkContainer hr{
+  width:100%
+}
+.ExlamationmarkContainer1{
+width:100%;
+
+}
+.HrDiv{
+  width:321px;
+}
+.CheckYourAnsText{
+width:321px;
+
+}
+.Hr2Div {
+  width: 321px;
+}
 }

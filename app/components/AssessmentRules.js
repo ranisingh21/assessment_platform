@@ -1,9 +1,11 @@
 const AssessmentRules = () => {
   return (
     <>
+      <div className="maincontentBox">
+      <h1>MCQ Test Portal</h1>
       <div className="instructions">
-        <div className="instruction">Instructions</div>
-        <div className="allMainContent">
+         <div className="instruction">Instructions</div>
+      <div className="allMainContent">
           <div className="paragraph1">Please read the instructions carefully before you begin:</div>
           <div className="main-box">
             <ul>
@@ -22,8 +24,9 @@ const AssessmentRules = () => {
         <div className="StartDiv">
           <a className="start_Atag" href="AssessmentTest">
             Let's Start!
-          </a>
-        </div>
+          </a> 
+         </div> 
+      </div>
       </div>
     </>
   );

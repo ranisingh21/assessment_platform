@@ -4,11 +4,10 @@ import AssessmentRules from './components/AssessmentRules';
 
 const Page = () => {
   return (
-    <div className="container">
+    <>
       <Header />
-      <h1>MCQ Test Portal</h1>
       <AssessmentRules />
-    </div>
+    </>
   );
 };
 

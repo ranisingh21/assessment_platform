@@ -1,5 +1,3 @@
-
-
 * {
   box-sizing: border-box;
   padding: 0;
@@ -17,17 +15,14 @@
   border-radius: 4px;
   border: 2px solid #F4D150;
   background: #FEEEB4;
-  /* float: right; */
   margin-top: 8px;
   margin-bottom: 8px;
-  box-shadow: 0px 4px 7px 0px #B3AE9C;}
+  box-shadow: 0px 4px 7px 0px #B3AE9C;
+}
 
 .HeaderContainer {
-  /* background-color: #EBE9E6; *
-  /* background: var(--Light-b, #F9F7F2); */
-  width:100%;
+  width: 100%;
   background-color: #FCFAFA;
-  /* border:1px solid black; */
 }
 
 .AssessmentHeader1 {
@@ -35,9 +30,7 @@
   background-color: #FCFAFA;
   margin: auto;
   display: flex;
-  /* border: 1px solid black; */
   justify-content: space-between;
-  /* align-items: center; */
 }
 
 .AssessmentContainer {
@@ -54,12 +47,12 @@
 }
 
 
-.logo2 {
-  font-size: 28.736px;
-  font-weight: 700;
-  margin-bottom: 7px;
-  margin-left:10px;
 
+.LogoContainer {
+  width: 112px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
 }
 
@@ -68,11 +61,14 @@
   gap: 16px;
 }
 
-.paginationresponsive {
-  display: none;
-  border: 2px solid maroon;
+.logoOne {
+  width: 56px;
 }
 
+.logoTwo {
+  width:43px;
+
+}
 .Pagination {
   width: 30px;
   height: 30px;
@@ -80,10 +76,9 @@
   border-radius: 30px;
   border: 2px solid #E0DFDA;
   text-align: center;
-  /* background-color:  #4C4B49; */
 }
 
-.Paginations{
+.Paginations {
   width: 30px;
   height: 30px;
   line-height: 28px;
@@ -91,7 +86,8 @@
   border: 2px solid #E0DFDA;
   text-align: center;
 }
-.Pagination5{
+
+.Pagination5 {
   width: 30px;
   height: 30px;
   line-height: 28px;
@@ -99,6 +95,7 @@
   border: 2px solid #E0DFDA;
   text-align: center;
 }
+
 .Pagination1 {
   width: 30px;
   height: 30px;
@@ -106,26 +103,21 @@
   border-radius: 30px;
   border: 1px solid #4C4B49;
   text-align: center;
-  background-color:  #4C4B49;
+  background-color: #4C4B49;
   color: #FCFAFA;
 }
 
 .RightArrow {
- 
+
 
   border-radius: 30px;
   width: 30px;
   height: 30px;
   text-align: center;
   line-height: 28px;
-  /* background-color:;
-  border:1px solid #F4D150; */
-  /* border-radius: 4px; */
-border: 1px solid var(--Accent, #F4D150);
-background: var(--Accent-Light, #FEEEB4);
-  /* box-shadow: 0px 4px 7px 0px #B3AE9C; */
+  border: 1px solid , #F4D150;
+  background:  #FEEEB4;
 
-  
 
 }
 
@@ -136,11 +128,9 @@ background: var(--Accent-Light, #FEEEB4);
   line-height: 28px;
   border-radius: 30px;
   background-color: #EBE9E6;
-  /* border:1px solid   #EBE9E6; */
-  /* box-shadow: 0px 4px 7px 0px #B3AE9C; */
- 
 
 }
+
 .hr {
   border: 2px solid black;
   height: 6px;
@@ -155,16 +145,10 @@ background: var(--Accent-Light, #FEEEB4);
   margin: auto;
 }
 
-
- 
-
-
-
 .QuesDisplayContainer {
   width: 560px;
-  /* border: 1px solid black; */
   margin-bottom: 40px;
-  
+
 }
 
 .ExamContainer1 {
@@ -178,14 +162,11 @@ background: var(--Accent-Light, #FEEEB4);
 .QuestionsContainer {
   width: 560px;
   margin-top: 66px;
-  /* margin-bottom: 96px; */
 }
 
 .FilterTimeContainer {
-  /* border: 1px solid green; */
   width: 284px;
-  /* height: 575px; */
-  bottom:47px;
+  bottom: 47px;
   position: relative;
 }
 
@@ -194,8 +175,9 @@ background: var(--Accent-Light, #FEEEB4);
   height: 375px;
   padding: 36px 39px 79.4px 48px;
   background: #F9F7F2;
-  margin-top:20px;
+  margin-top: 20px;
   border-radius: 12px;
+  border: 1px dashed black;
 }
 
 .FilterText {
@@ -206,7 +188,6 @@ background: var(--Accent-Light, #FEEEB4);
 
 .FilterHeader {
   width: 197px;
-  /* border:1px solid black; */
 }
 
 .FilterText {
@@ -238,140 +219,116 @@ background: var(--Accent-Light, #FEEEB4);
   background: #4C4B49;
   color: #F9F7F2;
   font-weight: 600;
-  border: 1px solid  #4C4B49;
+  border: 1px solid #4C4B49;
 }
 
 .FilterButton {
   padding: 10px 12px;
   border-radius: 4px;
-  font-weight: 400;
+  font-weight: 600;
   border: 1px solid #F4D150;
   background: #FEEEB4;
 }
 
 .TimerContainer {
   width: 152px;
-  /* height: 180px; */
-  /* border: 1px solid red; */
   margin: auto;
-  /* display: flex; */
 
 }
-.RemainingTimeText{
-  /* border: 1px solid black; */
-  margin:auto;
-  margin-top:10px;
-  color:  #1F1E1C;
+
+.RemainingTimeText {
+  margin: auto;
+  margin-top: 10px;
+  color: #1F1E1C;
   font-weight: 600;
   text-align: center;
-  
+
 }
 
-.CircularTimer{
-  
-  width: 141px;;
-  height:141px;
+.CircularTimer {
+
+  width: 141px;
+  ;
+  height: 141px;
   border-radius: 50%;
+  
   align-items: center;
-  display:flex;
+  display: flex;
   justify-content: center;
 
-box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   background: conic-gradient(from -55deg, #E68086 0% 15%, #EBE9E6 15% 100%);
 
-  /* text-align: center; */
 
 
 
 
 }
 
-.TimerDiv {
-  /* border:1px solid black; */
-  /* width:144px; */
-  /* align-items: center; */
-  /* height:172px; */
-  /* display: flex; */
-  /* justify-content: center; */
 
-}
-.TimeDisplay{
-  /* border:1px solid black; */
-  width:115px;
+
+
+
+.TimeDisplay {
+  width: 115px;
   height: 115px;
   border-radius: 50%;
-  background-color:  #FCFAFA;
-
+  background-color: #FCFAFA;
   display: flex;
   align-items: center;
-  /* justify-content:center; */
-  /* font-display: flex; */
 }
-.MinSecDiv{
-  /* border:1px solid black; */
-  width:74px;
-  /* height:50px; */
-  margin:auto;
-  /* display: flex; */
-  /* justify-content: space-between; */
-  /* align-items: center; */
+
+.MinSecDiv {
+  width: 74px;
+  margin: auto;
   display: flex;
   text-align: center;
   justify-content: space-between;
 }
 
-.MinutesDiv{
-  /* border:1px solid black; */
-  /* height:50px; */
-  width:32px;
-  /* padding-right:4px */
-  
+.MinutesDiv {
+
+  width: 32px;
+
 
 }
-.NumOfMin{
-  /* border:1px solid red; */
-  width:32px;
-  height:29px;
+
+.NumOfMin {
+  width: 32px;
+  height: 29px;
   text-align: center;
-  color: #E68086; 
-  font-size: 24px; 
-  font-weight: 600;
-
- 
-}
-.MinTextDiv{
-  /* border: 1px solid green; */
-  margin-top:6px;
-  color: v#1F1E1C;
-}
-
-.SecondDiv{
-  /* border/:1px solid black; */
-  width:30px;
-  /* height:49px; */
-}
-.NumOfSecond{
-  /* border:1px solid red; */
-  width:30px;
-  height:29px;
-  text-align: center;
-  color: #E68086; 
-  font-size: 24px; 
+  color: #E68086;
+  font-size: 24px;
   font-weight: 600;
 }
-.SecondTextDiv{
- 
-  margin-top:6px;
-  /* border:1px solid maroon ; */
+
+.MinTextDiv {
+  margin-top: 6px;
+  color: #1F1E1C;
+}
+
+.SecondDiv {
+  width: 30px;
+}
+
+.NumOfSecond {
+  width: 30px;
+  height: 29px;
+  text-align: center;
+  color: #E68086;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.SecondTextDiv {
+
+  margin-top: 6px;
   color: v#1F1E1C;
 
 }
 
-.DotDiv{
-  /* border: 1px solid black; */
-  /* width:28px; */
+.DotDiv {
   display: none;
-  /* height:28px; */
 }
 
 
@@ -383,10 +340,18 @@ box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
 
 .QuestionDiv {
   width: 85px;
+color:#1F1E1C;
+font-family: "Inria Sans";
+font-size: 16px;
+font-weight: 700;
 }
 
 .ScoreDiv {
   width: 70px;
+  color: #1F1E1C;
+  text-align: right;
+  font-size: 14px;
+  font-weight: 400;
 }
 
 .QuesPlusScoreDiv {
@@ -403,7 +368,12 @@ box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .paragraph {
-  margin-bottom: 28px;
+ margin-bottom: 28px;
+  font-size: 14px;
+  color:  #1F1E1C;
+  font-weight: 600;
+  line-height: 160%;  
+  
 }
 
 .inputOptionDiv {
@@ -415,13 +385,16 @@ box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
   align-items: center;
 }
 
-.input1 {
-  margin-right: 16px;
-  accent-color: #F4D150;
+.input {
+  margin-right: 10px;
+  
 }
 
 .option {
   line-height: 150%;
+  font-size:14px;
+  font-weight:400px;
+  color: #4C4B49;
 }
 
 .QuestionStatusFilter {
@@ -430,15 +403,15 @@ box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
 
 .StatusFilterText {
   margin-bottom: 16px;
-  color:  #1F1E1C;
+  color: #1F1E1C;
   color: var(--Dark-a, #1F1E1C);
 }
 
 .AllFilterStatus {
-  padding:6px 8px;
+  padding: 6px 8px;
   border-radius: 54px;
   text-align: center;
-  color:white;
+  color: white;
   background: var(--Dark-b, #4C4B49);
 }
 
@@ -449,11 +422,11 @@ box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .AttemptedFilterStatus {
-  padding:5px 8px;
+  padding: 5px 8px;
   border-radius: 54px;
   background-color: #FEEEB4;
   border: 1px solid #F4D150;
-  margin-left:6px;
+  margin-left: 6px;
   text-align: center;
   color: #1F1E1C;
 
@@ -467,174 +440,248 @@ box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
   color: #1F1E1C;
   text-align: center;
 
-  
+
 }
-.FilterTextContainer{
+
+.FilterTextContainer {
   display: none;
 }
 
+.TimerColon{
+  width:6px;
+  text-align: center;
  
-@media only screen and (max-width: 576px) {
-  .AssessmentHeader1 { 
-    width: 100%;
-    border: 2px solid green;
-    /* height: 72px; */
-  }
-  .PaginationContainer { 
-
-    border-top:2px solid gainsboro;
-    width:100%;
-    /* height:74px; */
-    display: flex;
-    /* align-items: center; */
-    justify-content: center;
-    padding-top:22px;
-    padding-bottom:24px; 
-    gap:26px;
-
-
-
-  }  
-
-  .DotDiv{
-    display: block;
-    width:15px;
-    height:30px;
-    text-align: center;
 }
+
+@media only screen and (max-width: 576px) {
+  .AssessmentHeader1 {
+    width: 100%;
+  }
+
+  .PaginationContainer {
+
+    border-top: 2px solid gainsboro;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 22px;
+    padding-bottom: 24px;
+    gap: 26px;
+
+  }
   
-  
+
+  .DotDiv {
+    display: block;
+    width: 15px;
+    height: 30px;
+    text-align: center;
+  }
+
+
   .NaviglogoDiv {
     display: flex;
     flex-direction: column;
-    width:100%;
-    padding-top:3px;
+    width: 100%;
+    padding-top: 3px;
 
   }
-  .LogoContainer{
-    margin-top:20px;
-    margin-bottom:18px;
-      
 
+  .LogoContainer {
+    margin-top: 20px;
+    margin-bottom: 18px;
   }
-  .Pagination1{
+
+  .Pagination1 {
     background-color: white;
-    border: 2px solid  #E0DFDA;  
+    border: 2px solid #E0DFDA;
     color: #1F1E1C;
   }
-  .Paginations{
+
+  .Paginations {
     display: none;
   }
-  .Pagination5{
-  border-radius: 30px;
-  border: 1px solid  #4C4B49;
-  background: #4C4B49;
-  color: #FCFAFA;
+
+  .Pagination5 {
+    border-radius: 30px;
+    border: 1px solid #4C4B49;
+    background: #4C4B49;
+    color: #FCFAFA;
   }
 
-.LeftArrow{
-  border-radius: 40px;
-border: 1px solid #F4D150;
-background:  #FEEEB4;
-}  
+  .LeftArrow {
+    border-radius: 40px;
+    border: 1px solid #F4D150;
+    background: #FEEEB4;
+  }
 
- 
-.QuesDisplayContainer{ 
-   width:100%; 
-  margin:0px; 
- } 
 
-.ExamContainer {
-  width: 100%;
-  /* margin:0px;  */
+  .QuesDisplayContainer {
+    width: 100%;
+    margin: 0px;
+  }
+
+  .ExamContainer {
+    width: 100%;
+  }
+
+  .ExamContainer1 {
+    width: 100%;
+    margin: 0px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .FilterContainer {
+    display: none;
+  }
+
+
+
+  .AssessmentContainer {
+    width: 100%;
+    padding-bottom: 219px;
+  }
+
+
+  .ExamContainer {
+    width: 100%;
+  }
+
+  .QuesDisplayContainer {
+    margin-bottom: 40px;
+  }
+
+  .QuestionsContainer {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0px;
+  }
+
+  .FilterTimeContainer {
+    width: 100%;
+    padding-left: 19px;
+    padding-right: 19px;
+    margin-top: 23px;
+    bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 58px;
+
+  }
+
+  .RemainingTimeText {
+    display: none;
+  }
+
+  .TimerContainer {
+    margin: 0px;
+  }
+
+  .FilterTextContainer {
+    display: block;
+    width: 104px;
+    height: 39px;
+  }
+
+  .ButtonDiv {
+    position: fixed;
+    top: 796px;
+    right: 19px;
+    border-radius: 4px;
+    background-color: #FEEEB4;
+    border: solid 2px #F4D150;
+    padding: 16px 35px;
+  }
+  .TimerContainer{
+    width:102px;
+  }
+.CircularTimer{
+  width:100px;
+  height:100px;
+  border-radius: 50%;
 }
-.ExamContainer1{
-  width:100%;
-  margin:0px;
-  margin:auto;
+.TimeDisplay {
+  width: 78px;
+  height: 78px;
+  border-radius: 50%;
+  background-color: #FCFAFA;
   display: flex;
-  flex-direction: column;
-
-}
- .FilterContainer{
-  display: none;
-} 
-
-
-
-.AssessmentContainer{
-  width: 100%;
-  padding-bottom: 219px;
-}
-
-
-.ExamContainer {
-  width:100%;
-  /* border:1px solid black; */
-}
- 
-.QuesDisplayContainer{
-  /* padding:auto; */
-  margin-bottom:40px;
-} 
- .QuestionsContainer{
-  /* margin:auto; */
-  width:100%;
-   padding-left: 20px;
-   padding-right: 20px;
-   margin:0px;
-   /* border: 1px solid black; */
-} 
-
-.FilterTimeContainer{
-  /* margin:0px; */
-  /* border: .1px solid black; */
-  width:100%;
-  padding-left:19px;
-  padding-right:19px;
-  /* position: relative; */
-  margin-top:23px;
-  bottom:0px;
-  display: flex;
-  justify-content: space-between;
   align-items: center;
-  margin-bottom:58px;
-  /* padding:auto; */
-  /* justify-content: center; */
-
 }
-.RemainingTimeText{
-  display: none;
-}
-.TimerContainer{
-  /* border:1px solid black; */
-  margin: 0px;
-  /* margin-left:20px; */
-  /* margin-bottom:58px; */
-}
-.FilterTextContainer{
-  /* border :2px solid black; */
-  display: block;
-  width:104px;
-  height:39px;
-  /* display: flex; */
-  /* margin-right: 20px; */
+.MinSecDiv {
+  width: 60px;
+  margin: auto;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
 }
 
-.ButtonDiv{
-   position: fixed;
-        top: 799px;
-        right: 19px;
-        border-radius: 4px;
-        background-color: #FEEEB4;
-        border: solid 2px #F4D150;
-        padding: 16px 35px;
-        margin-right: 0px;
-        border :3 px solid red;
-        margin:0px; 
-} 
+.MinutesDiv {
+  width: 26px;
+}
+.SecondDiv {
+  width: 26px;
+}
+.NumOfMin {
+  width: 24px;
+  height: 22px;
+  text-align: center;
+  color: #E68086;
+  font-size: 18px;
+}
+.NumOfSecond {
+  width: 24px;
+  height: 22px;
+  text-align: center;
+  color: #E68086;
+  font-size: 18px;
+
+
+}
+
+.TimerColon{
+width:6px;
+color: #E68086;
+font-size: 18px; 
+font-weight: 500;
+}
+.MinTextDiv {
+  margin-top: 6px;
+  color: #1F1E1C;
+  font-size: 12px;
+  font-weight: 500;
+ 
+}
+.SecondTextDiv {
+  margin-top: 6px;
+  color:  #1F1E1C;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.paragraph {
+  color: var(--Dark-a, #1F1E1C);
+
+  /* tx bold */
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%; /* 22.4px */  
+  
+}
 .paraMcqDiv{
-  border:1px solid black;
+
+  width: 320px;
+  margin:auto;
+  padding:40px 30px;
+  margin-top:20px;
+
 }
 
 }

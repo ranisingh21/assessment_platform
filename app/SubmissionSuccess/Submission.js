@@ -11,7 +11,7 @@ const Submission = () => {
                 <div className="Paragraph2">Review your results and keep practicing.<br />Great job and keep up the hard work </div>
             </div>
             <div className="ScoresDiv">
-                <a className="ScorestAtag" href="Scores">
+                <a className="ScoreAtag" href="Scores">
                     Check Your Score
                 </a>
             </div>
